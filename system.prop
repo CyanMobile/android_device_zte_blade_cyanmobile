@@ -1,0 +1,46 @@
+#
+# system.prop for Blade
+#
+rild.libpath=/system/lib/libril-qc-1.so
+rild.libargs=-d /dev/smd0
+wifi.interface=wlan0
+wifi.supplicant_scan_interval=30
+ro.com.android.dataroaming=false
+DEVICE_PROVISIONED=1
+ro.sf.lcd_density=240
+ro.sf.hwrotation=180
+qemu.sf.lcd_density=240
+keyguard.no_require_sim=true
+ro.ril.hsxpa=2
+ro.ril.gprsclass=10
+ro.build.baseband_version=P729BB01
+ro.telephony.default_network=0
+ro.telephony.call_ring.multiple=false
+ro.com.google.locationfeatures=1
+ro.media.enc.jpeg.quality=100
+ro.media.dec.jpeg.memcap=8000000 
+debug.composition.type=gpu
+persist.sys.composition.type=gpu
+persist.sys.ui.hw=true
+dalvik.vm.lockprof.threshold=500
+dalvik.vm.dexopt-flags=m=y
+dalvik.vm.heapsize=32m
+dalvik.vm.execution-mode=int:jit
+dalvik.vm.dexopt-data-only=1
+ro.opengles.version=131072
+ro.setupwizard.enable_bypass=1
+view.fading_edge_length=8
+ro.config.hw_menu_unlockscreen=false
+ro.service.swiqi.supported=true
+view.minimum_fling_velocity=25
+view.scroll_friction=0.008
+view.touch_slop=15
+debug.sf.hw=1
+persist.sys.themeId=ICStransV3 UOT
+persist.sys.themePackageName=com.uotkitchen.theme.icstransv3
+media.stagefright.enable-player=true
+windowsmgr.max_events_per_sec=150
+debug.performance.tuning=1
+video.accelerate.hw=1
+ro.telephony.call_ring.delay=0
+ro.ril.disable.power.collapse=0
