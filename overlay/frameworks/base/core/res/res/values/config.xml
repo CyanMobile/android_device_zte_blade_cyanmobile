@@ -28,8 +28,6 @@
          by light sensor events or hardware directly -->
     <bool name="config_automaticSoftwareBrightness">true</bool>
 
-    <bool name="config_animateScreenLights">true</bool>
-
     <bool name="config_disableMenuKeyInLockScreen">true</bool>
 
     <integer name="config_lightSensorWarmupTime">250</integer>

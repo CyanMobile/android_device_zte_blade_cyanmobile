@@ -122,6 +122,25 @@ PRODUCT_COPY_FILES += \
     device/zte/blade/camera_click.ogg:system/media/audio/ui/camera_click.ogg \
     device/zte/blade/VideoRecord.ogg:system/media/audio/ui/VideoRecord.ogg
 
+## Tweaks
+PRODUCT_COPY_FILES += \
+    device/zte/blade/70zipalign:system/etc/init.d/70zipalign \
+    device/zte/blade/zipalign:system/bin/zipalign \
+    device/zte/blade/prebuilt/be_photo:system/etc/be_photo \
+    device/zte/blade/prebuilt/be_movie:system/etc/be_movie
+
+## application
+PRODUCT_COPY_FILES += \
+      device/zte/blade/app/Ice10.apk:system/app/Ice10.apk
+
+## application
+## PRODUCT_COPY_FILES += \
+##    device/zte/blade/app/Memo.apk:system/app/Memo.apk \
+##    device/zte/blade/09Mixer:system/etc/init.d/09Mixer \
+##    device/zte/blade/app/ics.apk:system/app/ics.apk \
+##    device/zte/blade/app/ToCa.apk:system/app/ToCa.apk \
+##    device/zte/blade/app/TaskManager.apk:system/app/TaskManager.apk
+
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 # Discard inherited values and use our own instead.
 PRODUCT_NAME := zte_blade
